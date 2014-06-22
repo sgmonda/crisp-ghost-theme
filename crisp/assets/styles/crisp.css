@@ -108,14 +108,17 @@ ul, ol {
 	margin-left: 3em; 
 }
 code {
-	font-size:1.4em;
+	font-size:1.2em;
 	background: #eee;
+	border-radius: 5px;
+	padding: 0 5px 0 5px;
 }
 pre {
-	font-size: 0.8em;
+	font-size: 1em;
 	line-height: 2em;
 	background: #eee;
-	padding: 1em;
+	border-radius: 5px;
+	padding: 0.5em;
 	word-break: break-all;
 	word-wrap: break-word;
 	white-space: pre;
@@ -191,10 +194,22 @@ h1.post-title {
 	margin: 0;
 }
 .post-title > p {
-	font-size: 0.8em;
+	font-size: 0.9em;
 }
 .post-title .feature-star {
 	font-size: 0.9em;
+}
+.post {
+	text-align: justify;
+}
+.post-title {
+	text-align: left;
+}
+.post img {
+	display: block;
+	margin: 5px auto 5px auto;
+	max-height: 100%;
+	border-radius: 5px;
 }
 .separator, .taglist, .feature-star {
 	color: #ccc;
