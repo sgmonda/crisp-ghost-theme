@@ -5,7 +5,7 @@
 
   <div class="post-title" style="border: none">
 	<div class="date">
-	  {{date published_at format='MMMM D, YYYY'}}
+	  {{date published_at format='DD-MM-YYYY'}}
 	</div>
 
 	<h3 class="title">
@@ -26,12 +26,11 @@
 
 </article>
 
-
 <!-- Begin Comments Code -->
 <div id="comments">
 	<div id="disqus_thread"></div>
 	<script type="text/javascript">
-	    var disqus_shortname = 'example'; // required: replace example with your shortname
+	    var disqus_shortname = 'sgmonda'; // required: replace example with your shortname
 	    var disqus_identifier = '{{id}}';
 	    (function() {
 	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -43,4 +42,5 @@
 	<a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
 <!-- End Comments Code -->
+
 {{/post}}
